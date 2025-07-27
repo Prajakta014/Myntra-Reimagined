@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #fff1f5, #fff7f0);
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ff3f6c;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #1b1b1b;
+    font-weight: 600;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.icons input {
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.login-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner {
+    width: 100%;
+    max-width: 300px;
+    /* reduced from 400px */
+    height: auto;
+    border-radius: 8px;
+}
+
+.login-box {
+    width: 100%;
+    max-width: 350px;
+    background: white;
+    padding: 25px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #ddd;
+}
+
+.login-box h2 {
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: #2c2c2c;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.country-code {
+    padding: 10px 12px;
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.terms {
+    display: flex;
+    align-items: flex-start;
+    font-size: 13px;
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.terms input {
+    margin-right: 8px;
+    margin-top: 4px;
+}
+
+.terms a {
+    color: #ff3f6c;
+    text-decoration: none;
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #696969;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #4a4a4a;
+}
+
+.help {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.help a {
+    color: #ff3f6c;
+    text-decoration: none;
+}
